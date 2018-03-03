@@ -45,6 +45,8 @@ def distance():
             'a': array_type,
             'b': array_type
         },
+	"required": ["a", "b"],
+	'additionalProperties': False
     }
 
     r = request.get_json()
