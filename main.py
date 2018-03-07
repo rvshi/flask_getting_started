@@ -9,10 +9,10 @@ def hello():
     return 'Welcome to the server'
 
 
-@app.route('/<name>', methods=['GET'])
+@app.route('/name', methods=['GET'])
 def name(name):
     data = {
-        'name': name
+        'name': 'Harvey Shi' 
     }
     return jsonify(data)
 
