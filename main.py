@@ -10,7 +10,7 @@ def hello():
 
 
 @app.route('/name', methods=['GET'])
-def name(name):
+def name():
     data = {
         'name': 'Harvey Shi' 
     }
