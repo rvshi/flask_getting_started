@@ -20,7 +20,7 @@ def name(name):
 @app.route('/hello/<name>', methods=['GET'])
 def hello_name(name):
     data = {
-        'message': 'Hello there,  {}'.format(name)
+        'message': 'Hello there, {}'.format(name)
     }
     return jsonify(data)
 
